@@ -7,92 +7,97 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <h1>Sriharsha Polimetla</h1>
-        <p>Technology Specialist | 9+ Years Experience</p>
-        <p>Location: Schenefeld, Germany | Nationality: German</p>
-        <p>Email: <a href="mailto:sriharsha186@gmail.com">sriharsha186@gmail.com</a> | Mobile: +49-17623707755</p>
-        <p><a href="https://www.linkedin.com/in/spolimetla">LinkedIn</a> | <a href="https://github.com/S-Polimetla">GitHub</a> | <a href="https://polimetla.medium.com">Medium</a></p>
+        <div class="container">
+            <h1>Sriharsha Polimetla</h1>
+            <p>Technology Specialist & Software Developer</p>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Software Developer with over 9 years of international professional experience specializing in Cloud Native Applications, DevOps, and Backend API Development. I am passionate about creating scalable, reliable, and efficient systems using modern cloud technologies like AWS, Google Cloud, and serverless architectures.</p>
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Software Developer with over 9 years of international professional experience specializing in Cloud Native Applications and DevOps. Passionate about building scalable and reliable cloud systems using AWS, GCP, and Serverless technologies.</p>
+        </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Master's in Mechatronics</strong> - University of Applied Sciences, Ravensburg-Weingarten, Germany (2015-2017)</li>
-            <li><strong>Bachelor's in Mechanical Engineering</strong> - VIT University, Vellore, India (2009-2013)</li>
-        </ul>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Cloud Computing (AWS, GCP)</li>
+                <li>DevOps & CI/CD Pipelines</li>
+                <li>Node.js, Java, Docker, PostgreSQL</li>
+                <li>Serverless (Lambda, API Gateway)</li>
+                <li>Microservices, Agile Scrum</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>
-                <strong>Technology Specialist</strong> - Airbus Operations, Hamburg, Germany (2020 - Present)
-                <p>Responsibilities: Migration of services to AWS, API development, CI/CD pipelines, and cloud architecture.</p>
-            </li>
-            <li>
-                <strong>Application Developer</strong> - Accenture Services, Hamburg, Germany (2017 - 2019)
-                <p>Responsibilities: Developed serverless microservices, Dockerized APIs, and automated testing pipelines.</p>
-            </li>
-            <li>
-                <strong>Application Developer</strong> - Accenture Services, Bangalore, India (2013 - 2015)
-                <p>Responsibilities: Migrated legacy systems, developed Java applications, and conducted unit testing with JUnit.</p>
-            </li>
-        </ul>
+    <!-- Work Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <strong>Technology Specialist</strong> - Airbus Operations, Hamburg, Germany (2020 - Present)
+                    <p>Led cloud migration projects, developed serverless architectures, and implemented CI/CD pipelines.</p>
+                </li>
+                <li>
+                    <strong>Application Developer</strong> - Accenture Services, Hamburg, Germany (2017 - 2019)
+                    <p>Developed microservices with Java, Node.js, and AWS Lambda. Managed Docker containers and deployment pipelines.</p>
+                </li>
+                <li>
+                    <strong>Application Developer</strong> - Accenture Services, Bengaluru, India (2013 - 2015)
+                    <p>Migrated Legacy COBOL applications into Java microservices</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>DevOps, Cloud (AWS, GCP), Node.js, Java, Docker, SQL/NoSQL, Microservices, Agile Scrum</li>
-        </ul>
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Master's in Mechatronics</strong> - University of Applied Sciences, Ravensburg-Weingarten, Germany (2015-2017)</li>
+                <li><strong>Bachelor's in Mechanical Engineering</strong> - VIT University, Vellore, India (2009-2013)</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="certifications">
-        <h2>Certifications & Awards</h2>
-        <ul>
-            <li>AWS Certified Developer – Associate</li>
-            <li>Google Cloud Platform Certified Associate Cloud Engineer</li>
-            <li>Telc Deutsch B2 - German Language Certificate</li>
-            <li>Professional Scrum Master I</li>
-            <li>Second place in chess at VIT University tournament</li>
-            <li>ACE (Accenture Celebrates Excellence) award</li>
-        </ul>
+    <!-- Contact Form Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
 
-    <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>English (Fluent)</li>
-            <li>German (B2)</li>
-            <li>Hindi (Fluent)</li>
-            <li>Telugu (Native)</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
+    <!-- Footer -->
     <footer>
-        <p>© 2024 Sriharsha Polimetla. All rights reserved.</p>
+        <div class="container">
+            <p>© 2024 Sriharsha Polimetla</p>
+            <p>
+                <a href="https://www.linkedin.com/in/spolimetla">LinkedIn</a> | 
+                <a href="https://github.com/S-Polimetla">GitHub</a> | 
+                <a href="https://polimetla.medium.com">Medium</a>
+            </p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
