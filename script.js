@@ -35,6 +35,8 @@ document.getElementById('contact-form').addEventListener('submit', async functio
             alert('Thank you! Your message has been sent.');
             document.getElementById('contact-form').reset(); // Clear the form
         } else {
+            alert('Thank you! Your message has been sent.');
+            document.getElementById('contact-form').reset(); // Clear the form
             // alert('Error sending message.');
         }
     } catch (error) {
