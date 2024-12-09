@@ -25,6 +25,7 @@ header {
     color: white;
     padding: 50px 0;
     text-align: center;
+    position: relative;
 }
 
 header h1 {
@@ -35,6 +36,29 @@ header h1 {
 header p {
     font-size: 1.2em;
     margin-top: 5px;
+}
+
+header .download-btn, header .contact-btn {
+    position: absolute;
+    top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+
+header .download-btn {
+    right: 120px;
+}
+
+header .contact-btn {
+    right: 20px;
+}
+
+header .download-btn:hover, header .contact-btn:hover {
+    background-color: #0056b3;
 }
 
 /* Section */
