@@ -43,10 +43,12 @@ header .download-btn, header .contact-btn {
     top: 20px;
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
-    font-size: 1.1em;
+    padding: 15px 30px; /* Increased padding for bigger button */
+    font-size: 1.5em; /* Increased font size */
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added smooth transition for hover effects */
+    border-radius: 5px; /* Optional: rounded corners */
 }
 
 header .download-btn {
@@ -59,6 +61,8 @@ header .contact-btn {
 
 header .download-btn:hover, header .contact-btn:hover {
     background-color: #0056b3;
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+    cursor: pointer; /* Changes cursor to hand on hover */
 }
 
 /* Section */
